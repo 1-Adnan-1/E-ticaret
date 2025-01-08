@@ -14,7 +14,7 @@ Bu proje, **HTML**, **CSS** ve **JavaScript** kullanılarak geliştirilmiş bir 
 - **Arama İşlemi**: Ürün arama özelliği.
 - **Filtreleme İşlemi**: Ürünlerin kategoriye veya fiyat aralığına göre filtrelenmesi.
 
-## Geliştirme Süreci
+## 🤯 Geliştirme Süreci
 1. **HTML Yapısı:** Projenin temel HTML yapısı oluşturuldu.
 2. **CSS Düzenlemeleri:** Responsive ve modern tasarım için CSS ile stil verildi.
 3. **JavaScript İşlevsellikleri:** Arama, filtreleme, favorilere ekleme, sepete ekleme gibi işlemler dinamik olarak yapıldı.
