@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Paneli</title>
+    <!-- BS Link -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="admin-body">
+    <!-- Header kısmı -->
+    <header class="admin-header">
+      <div class="admin-logo">Dashboard</div>
+      <div class="admin-title">Admin Paneli</div>
+    </header>
+    <div class="admin-container">
+      <!-- Navbar kısmı -->
+      <nav class="admin-navbar">
+        <ul>
+          <li>
+            <a href="./admin.html"
+              ><span class="icon"><i class="bi bi-speedometer2"></i></span>
+              Dashboard</a
+            >
+          </li>
+          <li>
+            <a href="./ürünler.html"
+              ><span class="icon"><i class="bi bi-laptop"></i></span> Ürünler</a
+            >
+          </li>
+          <li>
+            <a href="./kategori.html"
+              ><span class="icon"><i class="bi bi-bookmark-heart"></i></span>
+              Kategoriler</a
+            >
+          </li>
+          <li>
+            <a href="./satıcı.html"
+              ><span class="icon"
+                ><i class="bi bi-file-earmark-person"></i
+              ></span>
+              Satıcı Listesi</a
+            >
+          </li>
+          <li>
+            <a href="./kullanıcı.html"
+              ><span class="icon"><i class="bi bi-person-lines-fill"></i></span>
+              Kullanıcı Listesi</a
+            >
+          </li>
+          <li>
+            <a href="./sipariş.html"
+              ><span class="icon"><i class="bi bi-cart4"></i></span>
+              Siparişler</a
+            >
+          </li>
+          <li>
+            <a href="../main/index.html"
+              ><span class="icon"><i class="bi bi-house-door"></i></span>Ana
+              Sayfa'ya Dön</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <!-- Main kısmı -->
+      <main class="admin-main-content">
+        <div class="stats-container">
+          <!-- Birinci kutu: Toplam Ürün Satışı -->
+          <div class="stat-box">
+            <h3>Toplam Ürün Satışı</h3>
+            <p>120</p>
+          </div>
+          <!-- İkinci kutu: Toplam Müşteri Sayısı -->
+          <div class="stat-box">
+            <h3>Toplam Müşteri Sayısı</h3>
+            <p>1400</p>
+          </div>
+          <!-- Üçüncü kutu: Toplam Gelir -->
+          <div class="stat-box">
+            <h3>Toplam Gelir</h3>
+            <p>20,000</p>
+          </div>
+        </div>
+
+        <!-- Aydaki Ürün Kutu -->
+        <div class="sales-growth-box">
+          <h3>Son Aydaki Ürün Satış Artışı</h3>
+          <img src="./images/satış.çizelge.png" alt="" />
+        </div>
+      </main>
+    </div>
+    <!-- JS LİNK -->
+    <script src="./script.js"></script>
+  </body>
+</html>

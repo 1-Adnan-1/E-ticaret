@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+header {
+  display: flex;
+  justify-content: space-evenly;
+  gap: 300px;
+  align-items: center;
+  padding: 18px;
+  background-color: #ff671f;
+  color: white;
+}
+header a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 27px;
+  font-weight: 300;
+}
+header nav {
+  display: flex;
+  gap: 40px;
+}
+header nav a {
+  color: white;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: 500;
+}
+header nav a:hover {
+  text-decoration: underline;
+}
+.hero-image img {
+  width: 1000px;
+  height: 400px;
+  margin-left: 450px;
+  background-size: cover;
+  background-position: center;
+}
+.content {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.content h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #242424;
+}
+.content p {
+  font-size: 16px;
+  color: #555;
+  margin-bottom: 10px;
+}
+.content .grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+.content .grid div {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.content .grid div h3 {
+  margin-bottom: 10px;
+  color: #333;
+}
+.content .team {
+  margin-top: 40px;
+}
+.content .team img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.content .team h3 {
+  color: #242424;
+  margin-bottom: 10px;
+}
+.content .team p {
+  color: #555;
+}
+.footer {
+  background-color: #ff671f;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Ödüller */
+.awards {
+  background-color: #f9f9f9;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+.awards h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.awards ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.awards ul li {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Misyonumuz */
+.mission {
+  background-color: #e6f7ff;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+.mission h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.mission p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Referanslar */
+.testimonials {
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+.testimonials h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.testimonials blockquote {
+  font-size: 1.1rem;
+  margin: 10px 0;
+  font-style: italic;
+  color: #555;
+}
+
+.testimonials blockquote p {
+  margin: 0;
+}
+
+/* Değerlerimiz Bölümü */
+.values {
+  background-color: #f1f1f1;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+.values h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.values ul {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.values ul li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+/* Teknoloji ve İnovasyon */
+.innovation {
+  background-color: #e0f7fa;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+.innovation h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.innovation p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Sosyal Sorumluluk Projeleri */
+.social-responsibility {
+  background-color: #f9e6ff;
+  padding: 30px 20px;
+  margin-top: 40px;
+}
+
+.social-responsibility h2 {
+  font-size: 2rem;
+  color: #333;
+}
+
+.social-responsibility p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Konum Bölümü */
+.location {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
+
+.address {
+  width: 45%;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+
+.map {
+  width: 45%;
+  padding: 20px;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+}
+
+.address h2,
+.map h2 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.address-box {
+  margin-bottom: 20px;
+}
+
+.address-box p {
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Harita iframe */
+iframe {
+  border-radius: 8px;
+}
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+  .location {
+    flex-direction: column;
+  }
+
+  .address,
+  .map {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+}
