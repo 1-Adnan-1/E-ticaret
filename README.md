@@ -19,6 +19,8 @@ Bu proje, **HTML**, **CSS** ve **JavaScript** kullanılarak geliştirilmiş bir 
 2. **CSS Düzenlemeleri:** Responsive ve modern tasarım için CSS ile stil verildi.
 3. **JavaScript İşlevsellikleri:** Arama, filtreleme, favorilere ekleme, sepete ekleme gibi işlemler dinamik olarak yapıldı.
 
+## 🧩 Eksikler
+- **Back-End Entegrasyonu**: Kullanıcı kayıtları, giriş işlemleri gibi back-end gerektiren özellikler şu an için çalışmamaktadır.
 
 ## Gif 📷
 ![ezgif com-video-to-gif-converter](https://github.com/user-attachments/assets/1c239946-ccb9-40dd-b547-23dd8b0a8ebc)
